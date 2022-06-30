@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "partehmath"
-version = "0.0.2"
+version = "0.1.2"
 authors = [
   { name="PartehDev", email="parteh0754@vivaldi.net" },
 ]
