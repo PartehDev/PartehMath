@@ -1,2 +1,2 @@
 # PartehMath
-A bad numpy clone with less features
+A bad numpy clone with less features for python
