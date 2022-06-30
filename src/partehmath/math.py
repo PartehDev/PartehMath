@@ -21,3 +21,7 @@ def square_root(num):
         return None
     else:
         return num**0.5
+def Power(k, n):
+    return k^n
+def DoubleNum(n):
+    return n + n
