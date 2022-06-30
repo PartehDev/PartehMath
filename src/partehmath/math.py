@@ -14,10 +14,8 @@ def isEven(num):
         return True
     else:
         return False
-def dot(vec1:list,vec2:list):
-    value = 0
-    value = sum( [vec1[i][0]*vec2[i] for i in range(len(vec2))])
-    return value
+def dot(vec1,vec2):
+    return sum(x*y for x, y in zip(vec1,vec2))
 def square_root(num):
     if num < 0:
         return None
