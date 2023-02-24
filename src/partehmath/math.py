@@ -25,3 +25,7 @@ def Power(k, n):
     return k**n
 def DoubleNum(n):
     return n + n
+def modulo(spam, eggs): 
+    print(str(spam % eggs))
+def percent(spam, eggs): 
+    return str((spam * eggs) / 100.0)
